@@ -1,0 +1,411 @@
+
+/* 
+---- Values For Entire Page ----
+*/
+
+html {
+	background: #7f99b2 url(../images/frontPagePicture.jpg) no-repeat left center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	opacity: 1;
+	transition: opacity 2s ease;
+    -webkit-transition: opacity 2s ease;
+    color: white;
+}
+
+a:hover {
+	opacity: 0;
+	color: #005cb8;
+}
+
+main,
+footer {
+	margin: 0 auto 0 auto;
+	width: 90%;
+	max-width: 600px;
+
+	font-family: "Scheherazade", serif;
+	font-weight: 500;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+/* 
+---- values for the HEADER ----
+*/
+
+aside {   /*hazlitt quote*/
+	position: absolute;
+	left: 40%;
+	width: 58%;
+	top: 7em;
+
+	color: #005cb8;
+	font-family: "Cutive Mono", Arial;
+	font-size: 1.4em;
+	margin: 2px;
+}
+
+.titles {
+	position: absolute;
+}
+
+h1 {
+	color: white;
+	font-family: "Scheherazade", serif;
+	font-weight: 100;
+	font-size: 250%;
+
+	margin: 2% auto 1.5% auto;
+}
+
+.titles h1 {
+	position: absolute;
+	top: -0.1em;
+}
+
+h2 {
+	font-family: "Cutive Mono", Arial;
+}
+
+.titles h2 {
+	position: absolute;
+	top: .3em;
+}
+
+h3 {
+	display: none;
+}
+
+#adams {
+	position: absolute;
+	top: 35em;
+	left: 3%;
+	width: 60%;
+
+	color: #005cb8;
+	font-family: "Cutive Mono", Arial;
+	font-size: 1.4em;
+	margin: 2px;
+}
+
+nav {
+	position: absolute;
+	top: 77em;
+	color: white;
+	font-size: 1.1em;
+	font-family: "Cutive Mono", Arial;
+	font-weight: lighter;
+    margin: 2%;
+    line-height: 0.90em;
+}
+
+nav ul {
+	line-height: 2em;
+	padding: 0 0 0 1.25em;
+	margin: -1em 0 0 0;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+main section,
+.social {
+	position: relative;
+	top: 75em;
+	width: 90%;
+	margin: 0 auto 0 auto;
+	padding: 2% 1% 1% 2%;
+	background: rgba(114, 158, 201, 0.8);
+}
+
+main section:first-child {
+	border-radius: 15px 15px 0 0;	
+}
+	
+#wordpress {
+	background: rgba(102, 102, 102, 0.8);
+}
+
+.social {
+	border-radius: 0 0 15px 15px;
+	margin-bottom: 15%;
+}
+
+/* 
+---- MEDIA FOR MOBILE ------
+---- MEDIA FOR MOBILE ------
+ */
+
+@media screen and (max-width: 900px) {
+
+	html {
+	background: #7f99b2 url(../images/frontPagePicture.jpg) no-repeat left center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center;
+  	}
+
+	aside {   /*hazlitt quote*/
+		left: 15%;
+		width: 83%;
+		top: 7em;
+
+		color: #005cb8;
+		font-family: "Cutive Mono", Arial;
+		font-size: 1.4em;
+		margin: 2px;
+		font-weight: 900;
+	}
+
+	#adams {
+		font-weight: 900;
+		left: 11%;
+		width: 84%;
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+/* 
+---- START -- Navigation Manipulation for mobile ----
+---- START -- Navigation Manipulation for mobile ----
+---- START -- Navigation Manipulation for mobile ----
+ */
+
+	#areas p { /* removes "+area" label */
+		display: none; 
+	}
+
+	nav a { /* removes underline and hyperlink blue */
+	 	color: #005cb8;
+	 	text-transform: none;
+	}
+
+	nav a:hover {
+		opacity: 0.5;
+	}
+
+	nav a:active {
+		color: #004081;
+	}
+
+	nav {  /* positions nav separator line */
+		position: relative;
+		top: 75em;
+		margin: 2% 3% 0 3%;
+		padding: 5% 0 6.5em 0;
+		line-height: 2em;
+	}
+
+	nav p { /* positions about, blog, and contact */
+		font-size: 1.8em;
+		font-family: "Cutive Mono", Arial;
+		font-weight: 900;
+		text-align: center;
+
+		display: inline;
+		position: relative;
+		left: 50%;
+	}
+
+	nav p:nth-child(1) a {  /*position ABOUT*/
+		display: none; /*not displayed on its own page*/
+		position: relative;
+		top: 0.5em;
+		margin-left: -1.5em;
+		border-bottom: 2px solid white;
+	}
+
+	nav p:nth-child(3) a {  /*position BLOG*/
+		position: relative;
+		top: 0;
+		margin-left: -1.25em;
+		border-bottom: 2px solid white;
+	}
+
+	nav p:nth-child(4) a {  /*position CONTACT*/
+		position: relative;
+		top: 1.9em;
+		margin-left: -3.5em;
+		border-bottom: 2px solid white;
+	}
+
+	/* LIST Manipulation */
+	/* LIST Manipulation */
+	/* LIST Manipulation */
+
+	#areas {
+		position: absolute;
+		height: 35px;
+		width: 100%;
+		bottom: 1em;
+	}
+
+	nav #list {
+		position: absolute;
+		height: 10px;
+		width: 10px;
+		padding: 1px;
+		left: 50%;
+	}
+
+	nav ul li {
+		position: absolute;
+		top: 225%;
+	}
+
+	nav #areas #learn {
+		margin-left: -3.5em;
+	}
+
+	nav #areas #learn a {
+		padding: 0 10% 0 15%;
+		border-right: 2px solid #005cb8;
+		border-left: 2px solid #005cb8;
+	}
+
+	nav #areas #health {
+		right: 850%;
+	}
+
+	nav #areas #econ {
+		left: 600%;
+	}
+/*---- END -- Navigation Manipulation for mobile ----*/
+}
+
+/* 
+---- END -- Navigation Manipulation for mobile ----
+---- END -- Navigation Manipulation for mobile ----
+---- END -- Navigation Manipulation for mobile ----
+ */
+
+
+/*----  
+---- START -- HEALTH ----
+---- START -- HEALTH ----
+---- START -- HEALTH ----
+*/
+
+
+#heal .video {  /*Video Wrap*/
+	position: relative;
+	margin: 3% auto 3% auto;
+	padding-bottom: 42.35%; /* 16:9 56.25%*/
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	
+	top: 5em;
+	left: .0001%;
+	width: 80%;
+}
+
+#heal .video iframe {   /*Erobern Video*/
+	left: 0;
+	top: 7em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#heal .video p {
+	position: absolute;
+	left: 50%;
+	margin-left: -4.5em;
+	font-size: 1em;
+	color: #005cb8;
+	font-family: "Cutive Mono", Arial;
+	font-weight: 900;
+}
+
+#heal nav {
+	top: 45em;
+}
+
+#heal main section,
+#heal .social {
+	top: 10em;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	#heal nav {
+		top: 7em;
+	}
+
+	#heal main section,
+	#heal .social {
+		top: 8em;
+	}
+}
+
+
+
+/*----  
+---- START -- LEARNING ----
+---- START -- LEARNING ----
+---- START -- LEARNING ----
+*/
+
+#learning header aside {
+	position: relative;
+}
+
+
+#learning .video {  /*Video Wrap*/
+	position: relative;
+	margin: 3% auto 3% auto;
+	padding-bottom: 42.35%; /* 16:9 56.25%*/
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	
+	top: 18em;
+	left: .001%;
+	width: 80%;
+}
+
+#learning .video iframe {   /*Erobern Video*/
+	left: 0;
+	top: 7em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#learning nav {
+	top: 65em;
+}
+
+#learning main section,
+#learning .social {
+	top: 28em;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	#learning nav {
+		top: 25em;
+	}
+
+	#learning main section,
+	#learning .social {
+		top: 28em;
+	}
+}
