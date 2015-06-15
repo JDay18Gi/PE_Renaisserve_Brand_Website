@@ -1,3 +1,7 @@
+<?php
+require('blog/wp-blog-header.php');
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -13,8 +17,9 @@
 </head>
 
 <body id="blog">
+
 	<header>
-		
+
 		<div class="titles">
 			<h1>Renaisserve</h1>
 			<h3>Be More. Do More. For Others.</h3>
@@ -33,32 +38,49 @@
 			<p><a href="renBlog.html">Blog</a></p>
 			<p><a href="renContact.html">Contact</a></p>
 		</nav>
-	
+
 	</header>
 
 	<main>
-		<p>
-		---- Insert Wordpress blog here. ----
-		</p>
+
+		<?php
+			global $post;
+			$args = array( 'posts_per_page' => 6 );
+			$myposts = get_posts( $args );
+			foreach( $myposts as $post ) :	setup_postdata($post); ?>
+
+			<h1><?php the_title(); ?></h1>
+
+			<br/>
+
+			<?php the_content(); ?>
+
+			<br>
+
+			<?php endforeach; ?>
+
+		?>
+
+
 	</main>
 
 	<aside>
 		<h2>topics</h2>
 		<P>
-			<a href="http://example.com" target="_blank">Example Topic</a>,  
-			<a href="http://example.com" target="_blank">Example Topic</a>,  
-			<a href="http://example.com" target="_blank">Example Topic</a>,  
+			<a href="http://example.com" target="_blank">Example Topic</a>,
+			<a href="http://example.com" target="_blank">Example Topic</a>,
+			<a href="http://example.com" target="_blank">Example Topic</a>,
 			<a href="http://example.com" target="_blank">Example Topic</a>.
 		</p>
 	</aside>
 
 	<footer>
-		
+
 		<div class="social">
 			<a href="https://www.facebook.com/Renaisserve" target="_blank"><img src="images/faded_facebook.png" alt="facebook link" height="60" width="60"></a>
 			<a href="https://www.youtube.com/channel/UCQ3PX1gMi-Lxt7pnM0WyAxA" target="_blank"><img src="images/faded_youtube.png" alt="youtube link" height="60" width="60"></a>
 		</div>
-	
+
 	</footer>
 
 </body>

@@ -1,5 +1,5 @@
 
-/* 
+/*
 ---- Values For Entire Page ----
 */
 
@@ -32,7 +32,7 @@ img {
 	max-width: 60%;
 }
 
-/* 
+/*
 ------   HEADER  &   FOOTER   STUFF   ------
  */
 
@@ -74,7 +74,7 @@ footer a {
 	left: 40%;
 }
 
-/* 
+/*
 ------   MAIN   STUFF   ------
  */
 
@@ -114,7 +114,7 @@ nav {
 	font-family: "Cutive Mono", Arial;
 	font-weight: lighter;
     margin: 2%;
-  
+
 }
 
 #areas ul {
@@ -148,7 +148,7 @@ a:hover {
 
 /* --------  NAVIGATION sidebar END --------  */
 
-/* 
+/*
 ---- Navigation Manipulation for mobile ----
 ---- Navigation Manipulation for mobile ----
 ---- Navigation Manipulation for mobile ----
@@ -161,16 +161,16 @@ a:hover {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-size: cover;  	
+  	background-size: cover;
 }
 
 	#areas p { /* removes "+area" label */
-		display: none; 
+		display: none;
 	}
 
 	nav a { /* removes underline and hyperlink blue */
 	 	text-decoration: none;
-	 	color: #005cb8; 
+	 	color: #005cb8;
 	}
 
 	nav a:hover {
@@ -269,21 +269,21 @@ a:hover {
 	}
 }
 
-/* 
+/*
 ---- END -- Navigation Manipulation for mobile ----
 ---- END -- Navigation Manipulation for mobile ----
 ---- END -- Navigation Manipulation for mobile ----
  */
 
 
-/* 
+/*
 ---- START -- BLOG   BLOG    BLOG ----  --------
 ---- START -- BLOG   BLOG    BLOG ---- ---------
 ---- START -- BLOG   BLOG    BLOG ----  --------
  */
 
 #blog {
-	overflow-x: hidden;	
+	overflow-x: hidden;
 }
 
 #blog h3 {
@@ -308,6 +308,18 @@ a:hover {
 	border-radius: 8px;
 }
 
+#blog #end-post {
+	width: 80%;
+	height: 1em;
+	background: black;
+}
+
+#blog main h1 {
+	font-size: 2.2em;
+	width: 80%;
+	line-height: 1em;
+}
+
 @media screen and (max-width: 900px) {
 	#blog aside {
 		position: fixed;
@@ -330,7 +342,7 @@ a:hover {
 	}
 }
 
-/* 
+/*
 ---- END -- BLOG   BLOG    BLOG ----  ----------
 ---- END -- BLOG   BLOG    BLOG ----  ----------
 ---- END -- BLOG   BLOG    BLOG ----  ----------
