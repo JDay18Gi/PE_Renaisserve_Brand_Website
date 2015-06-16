@@ -16,7 +16,7 @@
 	<header>
 
 		<div class="titles">
-			<h1>Renaisserve</h1>
+			<a href="renHome"><h1>Renaisserve</h1></a>
 			<h3>Be More. Do More. For Others.</h3>
 			<h2>Learning</h2>
 		</div>
@@ -26,7 +26,7 @@
 				“I have never let my schooling interfere with my education. ”
 			</p>
 			<p class="sig">— Mark Twain</p>
-		</aside>	
+		</aside>
 
 		<aside class="video">
 			<iframe src="https://www.youtube.com/embed/85DlViGkvJc?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -35,28 +35,28 @@
 
 
 		<nav>
-			<p><a href="renAbout.html">About</a></p>
+			<p><a href="renAbout">About</a></p>
 			<div id="areas">
 				<p>+Areas</p>
 				<ul id="list">
-					<li id="health"><a href="renHealth.html">Health</a></li>
-					<li id="learn"><a href="renLearning.html">Learning</a></li>
-					<li id="econ"><a href="renEcon.html">Economics</a></li>
+					<li id="health"><a href="renHealth">Health</a></li>
+					<li id="learn"><a href="renLearning">Learning</a></li>
+					<li id="econ"><a href="renEcon">Economics</a></li>
 				</ul>
 			</div>
-			<p><a href="renBlog.html">Blog</a></p>
-			<p><a href="renContact.html">Contact</a></p>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
 		</nav>
-	
+
 	</header>
 
 	<main>
-		
+
 		<section>
 		<p>
 			Knowledge is power and power is capacity to serve others.  The better you understand the world around you, the better you will be able to serve others.  Not all knowledge is created equal, however.  There are certain systems of thought which are especially valuable.  This became clear to me through my battle with chronic illness.  The first group of doctors I visited used a broken, erroneous model.  They said I would be sick the rest of my life.  But a more effective model held the keys for my recovery and I’m healthier now than I’ve ever been.  The system of knowledge I discovered has significantly more value than the broken one that I originally encountered.  Not only are certain systems more valuable than others, usually the most popular systems of knowledge are the least effective.  There is an economic reason for this fact.  My writings in entrepreneurship, education, nutrition, economics, lifestyle design, and time-management are all the fruit of my search for the best systems of thought that will be most helpful in the service of others.</p>
 		</section>
-		
+
 		<section id="wordpress">
 
 			<p>
@@ -68,12 +68,12 @@
 	</main>
 
 	<footer>
-		
+
 		<div class="social">
 			<a href="https://www.facebook.com/Renaisserve" target="_blank"><img src="images/faded_facebook.png" alt="facebook link" height="60" width="60"></a>
 			<a href="https://www.youtube.com/channel/UCQ3PX1gMi-Lxt7pnM0WyAxA" target="_blank"><img src="images/faded_youtube.png" alt="youtube link" height="60" width="60"></a>
 		</div>
-	
+
 	</footer>
 
 </body>

@@ -14,6 +14,21 @@
 
 <body>
 	<main id="fourofour">
+
+		<nav>
+			<p><a href="renAbout">About</a></p>
+			<div id="areas">
+				<p>+Areas</p>
+				<ul id="list">
+					<li id="health"><a href="renHealth">Health</a></li>
+					<li id="learn"><a href="renLearning">Learning</a></li>
+					<li id="econ"><a href="renEcon">Economics</a></li>
+				</ul>
+			</div>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
+		</nav>
+
 		<div class="titles">
 			<h1>This is the 404 page.</h1>
 			<h3>All that is gold does not glitter, not all those who wander are lost; the old that is strong does not wither, deep roots are not reached by the frost. —J. R. R. Tolkien</h3>

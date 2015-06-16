@@ -21,22 +21,22 @@ require('blog/wp-blog-header.php');
 	<header>
 
 		<div class="titles">
-			<h1>Renaisserve</h1>
+			<a href="renHome"></a><h1>Renaisserve</h1></a>
 			<h3>Be More. Do More. For Others.</h3>
 		</div>
 
 		<nav>
-			<p><a href="renAbout.html">About</a></p>
+			<p><a href="renAbout">About</a></p>
 			<div id="areas">
 				<p>+Areas</p>
 				<ul id="list">
-					<li id="health"><a href="renHealth.html">Health</a></li>
-					<li id="learn"><a href="renLearning.html">Learning</a></li>
-					<li id="econ"><a href="renEcon.html">Economics</a></li>
+					<li id="health"><a href="renHealth">Health</a></li>
+					<li id="learn"><a href="renLearning">Learning</a></li>
+					<li id="econ"><a href="renEcon">Economics</a></li>
 				</ul>
 			</div>
-			<p><a href="renBlog.html">Blog</a></p>
-			<p><a href="renContact.html">Contact</a></p>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
 		</nav>
 
 	</header>

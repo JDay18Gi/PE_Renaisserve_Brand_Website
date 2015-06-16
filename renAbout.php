@@ -14,37 +14,37 @@
 
 <body>
 	<header>
-		
+
 		<div class="titles">
-			<h1>About Renaisserve</h1>
+			<a href="renHome"><h1>Renaisserve</h1></a>
 		</div>
 
 		<nav>
-			<p><a href="renAbout.html">About</a></p>
+			<p><a href="renAbout">About</a></p>
 			<div id="areas">
 				<p>+Areas</p>
 				<ul id="list">
-					<li id="health"><a href="renHealth.html">Health</a></li>
-					<li id="learn"><a href="renLearning.html">Learning</a></li>
-					<li id="econ"><a href="renEcon.html">Economics</a></li>
+					<li id="health"><a href="renHealth">Health</a></li>
+					<li id="learn"><a href="renLearning">Learning</a></li>
+					<li id="econ"><a href="renEcon">Economics</a></li>
 				</ul>
 			</div>
-			<p><a href="renBlog.html">Blog</a></p>
-			<p><a href="renContact.html">Contact</a></p>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
 		</nav>
-	
+
 	</header>
 
 	<main>
-		<p>In a culture where people are defined by their place of employment, J. Dayne Girard has a hard time answering the question, “So what do you do?” 
+		<p>In a culture where people are defined by their place of employment, J. Dayne Girard has a hard time answering the question, “So what do you do?”
 
 		<img src="images/Official_Profile.jpg" alt="picture of Dayne">
-			
+
 		Some know him as their academic coach. Those familiar with his victory over three chronic illnesses see him as a wealth of information on health, nutrition, and diet.  Clients and employees of Discernment Group International know him as an insightful economic writer, industry forecaster, and consultant. The Prices knew him as a caregiver. Diverse as they are, J. Dayne sees all these activities as the fruit of one singular passion: glorifying God in service to others.  One of his favorite quotes is perhaps a fitting explanation of how he desires to pattern his life:</p>
 
 
 		<p class="quote">“No man has a right to be idle.[...] where is it that in such a world as this, health, and leisure, and affluence, may not find some ignorance to instruct, some wrong to redress, some want to supply, some misery to alleviate?”  - William Wilberforce.</p>
-     
+
      	<p>In his own words, “There is too much misery in the world to alleviate, too many needs to meet, too much error to correct, and truth to defend to not seek an ever greater capacity for service.  I hope my life clearly shows that it was not the success, knowledge, skill, or experience itself that I sought as the end, but rather that these were a mere means to the end.”</p>
 
 
@@ -64,12 +64,12 @@
 	</main>
 
 	<footer>
-		
+
 		<div class="social">
 			<a href="https://www.facebook.com/Renaisserve" target="_blank"><img src="images/faded_facebook.png" alt="facebook link" height="60" width="60"></a>
 			<a href="https://www.youtube.com/channel/UCQ3PX1gMi-Lxt7pnM0WyAxA" target="_blank"><img src="images/faded_youtube.png" alt="youtube link" height="60" width="60"></a>
 		</div>
-	
+
 	</footer>
 
 </body>

@@ -16,7 +16,7 @@
 	<header>
 
 		<div class="titles">
-			<h1>Renaisserve</h1>
+			<a href="renHome"><h1>Renaisserve</h1></a>
 			<h3>Be More. Do More. For Others.</h3>
 			<h2>Health</h2>
 		</div>
@@ -28,28 +28,28 @@
 
 
 		<nav>
-			<p><a href="renAbout.html">About</a></p>
+			<p><a href="renAbout">About</a></p>
 			<div id="areas">
 				<p>+Areas</p>
 				<ul id="list">
-					<li id="health"><a href="renHealth.html">Health</a></li>
-					<li id="learn"><a href="renLearning.html">Learning</a></li>
-					<li id="econ"><a href="renEcon.html">Economics</a></li>
+					<li id="health"><a href="renHealth">Health</a></li>
+					<li id="learn"><a href="renLearning">Learning</a></li>
+					<li id="econ"><a href="renEcon">Economics</a></li>
 				</ul>
 			</div>
-			<p><a href="renBlog.html">Blog</a></p>
-			<p><a href="renContact.html">Contact</a></p>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
 		</nav>
-	
+
 	</header>
 
 	<main>
-		
+
 		<section>
 		<p>
 			There are few things that can more effectively destroy your capacity to serve others than disease and illness.   After two years of being fully recovered from Colitis, Crohn’s disease, MCS, and toxic mold exposure, I am more than convinced of the body’s amazing ability to heal itself.  This experience has left me with a strong impression that health is a very powerful tool which must be carefully stewarded in order to best serve others.  Discipline in diet and exercise, an understanding of sleep health, exercise science, and nutrition have massive potential for increasing one’s capacity to serve others.  Currently, I am working on a book which covers the methods I used to recover from these supposedly “incurable” disease.</p>
 		</section>
-		
+
 		<section id="wordpress">
 
 			<p>
@@ -61,12 +61,12 @@
 	</main>
 
 	<footer>
-		
+
 		<div class="social">
 			<a href="https://www.facebook.com/Renaisserve" target="_blank"><img src="images/faded_facebook.png" alt="facebook link" height="60" width="60"></a>
 			<a href="https://www.youtube.com/channel/UCQ3PX1gMi-Lxt7pnM0WyAxA" target="_blank"><img src="images/faded_youtube.png" alt="youtube link" height="60" width="60"></a>
 		</div>
-	
+
 	</footer>
 
 </body>

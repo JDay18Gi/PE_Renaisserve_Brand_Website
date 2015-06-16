@@ -18,19 +18,17 @@
 
 <!-- Navigation menu -->
 		<div class="menu">
-<!-- Links will need to be updated for pages -->
-			<p><a href="renAbout.html">About</a></p>
-	<!-- Eventually: click-to-drop menu in JS -->
+			<p><a href="renAbout">About</a></p>
 			<div id="areas">
 				<p>+Areas</p>
 				<ul>
-					<li><a href="renHealth.html">Health</a></li>
-					<li><a href="renLearning.html">Learning</a></li>
-					<li><a href="renEcon.html">Economics</a></li>
+					<li><a href="renHealth">Health</a></li>
+					<li><a href="renLearning">Learning</a></li>
+					<li><a href="renEcon">Economics</a></li>
 				</ul>
 			</div>
-			<p><a href="renBlog.html">Blog</a></p>
-			<p><a href="renContact.html">Contact</a></p>
+			<p><a href="renBlog">Blog</a></p>
+			<p><a href="renContact">Contact</a></p>
 		</div>
 
 <!-- Social Icons -->
@@ -41,7 +39,7 @@
 
 <!-- Page Name and Tagline -->
 		<div class="titles">
-			<h1>Renaisserve</h1>
+			<a href="renHome"><h1>Renaisserve</h1></a>
 			<h3>Be more. Do more. For others.</h3>
 		</div>
 	</div>
