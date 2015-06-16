@@ -1,5 +1,5 @@
 
-/* 
+/*
 ---- Values For Entire Page ----
 */
 
@@ -36,7 +36,7 @@ footer {
 	line-height: 1.5em;
 }
 
-/* 
+/*
 ---- values for the HEADER ----
 */
 
@@ -116,6 +116,14 @@ nav ul li {
 	list-style-type: none;
 }
 
+#areas p {
+	cursor: pointer;
+}
+
+#areas ul {
+	display: none;
+}
+
 main section,
 .social {
 	position: relative;
@@ -127,9 +135,9 @@ main section,
 }
 
 main section:first-child {
-	border-radius: 15px 15px 0 0;	
+	border-radius: 15px 15px 0 0;
 }
-	
+
 #wordpress {
 	background: rgba(102, 102, 102, 0.8);
 }
@@ -139,7 +147,7 @@ main section:first-child {
 	margin-bottom: 15%;
 }
 
-/* 
+/*
 ---- MEDIA FOR MOBILE ------
 ---- MEDIA FOR MOBILE ------
  */
@@ -175,14 +183,14 @@ main section:first-child {
 		font-size: 1.1em;
 	}
 
-/* 
+/*
 ---- START -- Navigation Manipulation for mobile ----
 ---- START -- Navigation Manipulation for mobile ----
 ---- START -- Navigation Manipulation for mobile ----
  */
 
 	#areas p { /* removes "+area" label */
-		display: none; 
+		display: none;
 	}
 
 	nav a { /* removes underline and hyperlink blue */
@@ -250,6 +258,10 @@ main section:first-child {
 		bottom: 1em;
 	}
 
+	#areas ul {
+	display: inline-block;
+	}
+
 	nav #list {
 		position: absolute;
 		height: 10px;
@@ -283,14 +295,14 @@ main section:first-child {
 /*---- END -- Navigation Manipulation for mobile ----*/
 }
 
-/* 
+/*
 ---- END -- Navigation Manipulation for mobile ----
 ---- END -- Navigation Manipulation for mobile ----
 ---- END -- Navigation Manipulation for mobile ----
  */
 
 
-/*----  
+/*----
 ---- START -- HEALTH ----
 ---- START -- HEALTH ----
 ---- START -- HEALTH ----
@@ -304,7 +316,7 @@ main section:first-child {
 	padding-top: 25px;
 	height: 0;
 	overflow: hidden;
-	
+
 	top: 5em;
 	left: .0001%;
 	width: 80%;
@@ -354,7 +366,7 @@ main section:first-child {
 
 
 
-/*----  
+/*----
 ---- START -- LEARNING ----
 ---- START -- LEARNING ----
 ---- START -- LEARNING ----
@@ -372,7 +384,7 @@ main section:first-child {
 	padding-top: 25px;
 	height: 0;
 	overflow: hidden;
-	
+
 	top: 18em;
 	left: .001%;
 	width: 80%;

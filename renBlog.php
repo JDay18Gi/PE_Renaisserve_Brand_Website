@@ -85,4 +85,7 @@ require('blog/wp-blog-header.php');
 
 </body>
 
+	<script src="js/renJQuery.js"></script>
+	<script src="js/ren.js"></script>
+
 </html>

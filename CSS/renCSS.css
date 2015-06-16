@@ -67,17 +67,23 @@ a:hover {
 	font-family: "Cutive Mono", Arial;
 	font-weight: lighter;
     margin: 2%;
-  
+
 }
 
 #areas ul {
 	list-style-type: none;
 	line-height: 1.9em;
 	margin: 0em;
+	display: none;
 }
 
 #areas p {
 	margin-bottom: 0;
+	cursor: pointer;
+}
+
+#areas p:hover {
+	opacity: 1;
 }
 
 
@@ -118,10 +124,10 @@ a:hover {
 		opacity: 1;
 		z-index: -1;
 	}
-	
+
 	.titles:hover {
 		opacity: 1;
-	}	
+	}
 
 	.menu {
 		position: absolute;
@@ -133,8 +139,9 @@ a:hover {
 		font-size: 3em;
 		font-weight: bolder;
 		line-height: 2em;
-
-
+}
+	#areas ul {
+		display: block;
 	}
 
 	.social {
@@ -142,7 +149,7 @@ a:hover {
 		top: 51em;
 		left: 1%;
 		margin: 4%;
-	}	
+	}
 }
 
 
@@ -154,7 +161,7 @@ a:hover {
 
 
 
-/* 
+/*
 
 ---------------------404  PAGE  NOT  FOUND---------------------
 ---------------------404  PAGE  NOT  FOUND---------------------

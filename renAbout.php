@@ -74,4 +74,7 @@
 
 </body>
 
+	<script src="js/renJQuery.js"></script>
+	<script src="js/ren.js"></script>
+
 </html>
